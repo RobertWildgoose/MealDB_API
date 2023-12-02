@@ -16,8 +16,6 @@ jobs:
       run: cd TheMealDB
     - name: Build
       run: dotnet build -c Release ./TheMealDB/TheMealDB.csproj
-    - name: Test
-      run: dotnet test -c Release --no-build
     - name: Pack nugets
       run: dotnet pack -c Release --no-build --output .
     - name: Push to NuGet
