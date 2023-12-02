@@ -4,6 +4,27 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageProjectUrl>https://github.com/RobertWildgoose/MealDB_API</PackageProjectUrl>
+    <Copyright>Robert Wildgoose</Copyright>
+    <Title>TheMealDB</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>TheMealDB API Wrapper is a convenient C# library that simplifies access to TheMealDB API.</Description>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
 
 </Project>
