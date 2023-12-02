@@ -15,7 +15,7 @@ jobs:
     - name: Change Directory
       run: cd TheMealDB
     - name: Build
-      run: dotnet build -c Release
+      run: dotnet build -c Release ./TheMealDB/TheMealDB.csproj
     - name: Test
       run: dotnet test -c Release --no-build
     - name: Pack nugets
