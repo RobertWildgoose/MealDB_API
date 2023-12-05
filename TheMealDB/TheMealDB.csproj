@@ -10,7 +10,9 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Description>TheMealDB API Wrapper is a convenient C# library that simplifies access to TheMealDB API.</Description>
-    <Version>1.0.1</Version>
+    <Version>2.0.0</Version>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
+    <FileVersion>2.0.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
