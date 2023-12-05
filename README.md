@@ -66,5 +66,5 @@ var mealsBeginingWithB = _searchService.SearchMealByFirstLetter("B");
 
 Search A Random Meal
 ```cs
-var randomMeal = _searchService.SearchMealByFirstLetter("B");
+var randomMeal = _searchService.SearchMealRandom();
 ```
